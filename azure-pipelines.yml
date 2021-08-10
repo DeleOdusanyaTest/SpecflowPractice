@@ -4,7 +4,7 @@ variables:
   buildConfiguration: 'Release'
   
 trigger:
-- master
+- main
 
 stages: 
   - stage: Build
