@@ -14,7 +14,7 @@ Given as a user i should launch the web application
 	When user click on SignIn button
 	
 
-
+@QuickTest
 @Sanity
 Scenario: login to the application
 	When user enter prashanthi.tirunagaris@gmail.com and Training@123
@@ -23,7 +23,7 @@ Scenario: login to the application
 	And I should see AddToCart 
 	But shouldn't login to the applicaiton
 
-	
+@QuickTest	
 @Sanity
 Scenario: login to the application with invalid user
 	When user enter jajshd@gmail.com and tesst123
