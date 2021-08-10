@@ -61,6 +61,6 @@ stages:
                   testFiltercriteria: 'Category=QuickTest'
                   testSelector: testAssemblies
                   testAssemblyVer2: |
-                    $(Agent.BuildDirectory)/**/*NexTest.DotNetCore.Framework.dll
+                    $(Agent.BuildDirectory)/**/*SpecflowPractice.dll
                     !$(Agent.BuildDirectory)/**/obj/**
 
