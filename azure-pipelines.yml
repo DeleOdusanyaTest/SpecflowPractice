@@ -16,8 +16,6 @@ stages:
 
     jobs:
     - job: Build
-      workspace:
-       clean: all
       steps:
       - task: DotNetCoreCLI@2
         displayName: Restore
