@@ -60,7 +60,7 @@ stages:
               - task: VSTest@2
                 displayName: 'Execute Tests'
                 inputs:
-                  testFiltercriteria: 'Category=QuickTest'
+                  testFiltercriteria: 'Category=Sanity'
                   testSelector: testAssemblies
                   testAssemblyVer2: |
                     $(Agent.BuildDirectory)/**/*SpecflowPractice.dll
