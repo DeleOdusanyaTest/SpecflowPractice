@@ -1,28 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Source\\Repos\\SpecflowPractice\\SpecflowPractice\\SpecflowPractice.csproj": {}
+    "C:\\Users\\del_o\\source\\repos\\spec\\SpecflowPractice\\SpecflowPractice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Source\\Repos\\SpecflowPractice\\SpecflowPractice\\SpecflowPractice.csproj": {
+    "C:\\Users\\del_o\\source\\repos\\spec\\SpecflowPractice\\SpecflowPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\SpecflowPractice\\SpecflowPractice\\SpecflowPractice.csproj",
+        "projectUniqueName": "C:\\Users\\del_o\\source\\repos\\spec\\SpecflowPractice\\SpecflowPractice.csproj",
         "projectName": "SpecflowPractice",
-        "projectPath": "C:\\Users\\user\\Source\\Repos\\SpecflowPractice\\SpecflowPractice\\SpecflowPractice.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Source\\Repos\\SpecflowPractice\\SpecflowPractice\\obj\\",
+        "projectPath": "C:\\Users\\del_o\\source\\repos\\spec\\SpecflowPractice\\SpecflowPractice.csproj",
+        "packagesPath": "C:\\Users\\del_o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\del_o\\source\\repos\\spec\\SpecflowPractice\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\del_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\user\\Downloads\\Core": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,6 +79,10 @@
             "WebDriverManager": {
               "target": "Package",
               "version": "[2.11.2, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.1.16, )"
             }
           },
           "imports": [
@@ -93,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

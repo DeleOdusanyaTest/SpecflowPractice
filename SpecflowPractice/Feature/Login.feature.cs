@@ -88,10 +88,12 @@ testRunner.Given("as a user i should launch the web application", ((string)(null
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("login to the application")]
+        [NUnit.Framework.CategoryAttribute("QuickTest")]
         [NUnit.Framework.CategoryAttribute("Sanity")]
         public virtual void LoginToTheApplication()
         {
             string[] tagsOfScenario = new string[] {
+                    "QuickTest",
                     "Sanity"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("login to the application", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
@@ -139,10 +141,12 @@ this.FeatureBackground();
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("login to the application with invalid user")]
+        [NUnit.Framework.CategoryAttribute("QuickTest")]
         [NUnit.Framework.CategoryAttribute("Sanity")]
         public virtual void LoginToTheApplicationWithInvalidUser()
         {
             string[] tagsOfScenario = new string[] {
+                    "QuickTest",
                     "Sanity"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("login to the application with invalid user", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
